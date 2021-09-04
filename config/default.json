@@ -1,0 +1,7 @@
+{
+    "mongoURI":"mongodb+srv://Lucifer16:Lucifer16@devconnector.8kqki.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+    "jwtSecret":"mysecrettoken",
+    "githubClientId":"234123bb21270750be0d",
+    "githubSecret":"b5eaa6c61396fe69fa4cd2a696ca9627c6b46c5e",
+    "githubToken":"git rm --cached config/default.json"
+  }
