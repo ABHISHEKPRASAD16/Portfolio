@@ -1,4 +1,10 @@
 const Profile = require("../models/Profile");
+const express = require("express");
+const router = express.Router();
+const request = require("request");
+const config = require("config");
+const { check, validationResult } = require("express-validator");
+const normalize = require("normalize-url");
 
 exports.findProfile = async (req, res) => {
   try {

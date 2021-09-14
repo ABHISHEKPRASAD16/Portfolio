@@ -23,7 +23,7 @@ router.post(
     check("email", "Please include a valid email").isEmail(),
     check("password", "password is required").exists(),
   ],
-  PostAuth
+ PostAuth
 );
 
 module.exports = router;
